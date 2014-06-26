@@ -1,1 +1,17 @@
-lkflklklnknlvclkclclcllgg
+<html ng-app>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+
+<div>
+   <p> My first example {{ 25 * 25}}</p> 
+   <div ng-controller="MyCntrl">
+    <button ng-click="toggle()"> !Click me!</button>   
+	<h1 ng-show="visible">  Am going to hide Now :)	 </h1>
+   </div>
+</div>
+</body>
+</html>
